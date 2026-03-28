@@ -9,3 +9,6 @@ def dashboard(request):
 
 def getstart(request):
     return render (request,"getstart.html")
+
+def get_started(request):
+    return render(request, 'home/get_started.html')
