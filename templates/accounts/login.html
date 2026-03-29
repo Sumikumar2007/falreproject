@@ -477,12 +477,12 @@
     <div class="logo">Influ<span>Connect</span></div>
 
     <ul class="nav-links">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Explore Influencers</a></li>
+      <li><a href="{% url 'home' %}">Home</a></li>
+      <li><a href="{% url 'influencers' %}">Explore Influencers</a></li>
       <li><a href="#">How it Works</a></li>
     </ul>
 
-    <a href="#" class="btn-nav">Get Started</a>
+    <a href="{% url 'get_started' %}" class="btn-nav">Get Started</a>
 
     <!-- Mobile hamburger -->
     <div class="hamburger" aria-label="Menu">

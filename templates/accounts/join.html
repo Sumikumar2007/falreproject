@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -701,7 +702,7 @@
 
   <!-- ✅ YAHAN BUTTON ADD KIYA -->
   <div style="margin-top: 20px; text-align: center;">
-    <a href="/influencer-dashboard/" 
+    <a href="{% url 'influencers_dashboard' %}" 
        style="padding: 10px 20px; background: #7c3aed; color: white; border-radius: 8px; text-decoration: none;">
        Go to Dashboard
     </a>
